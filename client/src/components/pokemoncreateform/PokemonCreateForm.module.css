@@ -45,7 +45,8 @@ input[type="number"] {
   padding: 8px 0px;
   border-radius: 5px;
   font-family: "Gamer";
-  font-size: 19px;
+  font-size: 15px;
+  /* Modified for deployment */
   text-align: center;
   font-weight: bold;
 }
@@ -60,7 +61,8 @@ input[type="number"] {
   cursor: pointer;
   transition: all 0.3s ease-in-out;
   box-shadow: 3px 3px 10px 2px rgba(0, 0, 0, 0.75);
-  font-size: 25px;
+  font-size: 20px;
+  /* Modified for deployment */
   margin-top: 10px;
 }
 
@@ -121,6 +123,7 @@ input[type="number"] {
 }
 
 .topButton {
+  /* Modified for deployment */
   margin-top: 20px !important;
   font-family: "Gamer";
   padding: 5px 80px !important;
@@ -131,7 +134,8 @@ input[type="number"] {
   cursor: pointer;
   transition: all 0.3s ease-in-out;
   box-shadow: 3px 3px 10px 2px rgba(0, 0, 0, 0.75);
-  font-size: 25px !important;
+  font-size: 20px !important;
+  /* Modified for deployment */
 }
 .topButton:hover {
   background-color: #ffd622;
