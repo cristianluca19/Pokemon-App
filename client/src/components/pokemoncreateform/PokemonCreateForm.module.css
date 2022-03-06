@@ -121,9 +121,9 @@ input[type="number"] {
 }
 
 .topButton {
-  margin-top: 20px;
+  margin-top: 20px !important;
   font-family: "Gamer";
-  padding: 5px 80px;
+  padding: 5px 80px !important;
   border: 5px solid black;
   background-color: #db3d4b;
   color: white;
@@ -131,7 +131,7 @@ input[type="number"] {
   cursor: pointer;
   transition: all 0.3s ease-in-out;
   box-shadow: 3px 3px 10px 2px rgba(0, 0, 0, 0.75);
-  font-size: 25px;
+  font-size: 25px !important;
 }
 .topButton:hover {
   background-color: #ffd622;

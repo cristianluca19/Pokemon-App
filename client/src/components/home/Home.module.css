@@ -21,6 +21,8 @@ body {
 .sectionFlex {
   display: flex;
   flex-direction: row;
+  margin-left: 180px; 
+  /* change margin left for deploy */
   flex-wrap: wrap;
   width: 100%;
   justify-items: center;
