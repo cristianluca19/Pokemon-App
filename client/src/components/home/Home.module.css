@@ -1,0 +1,96 @@
+@font-face {
+  font-family: "Gamer";
+  src: url("../../fonts/Retro\ Gaming.ttf");
+}
+
+body {
+  font-family: "Gamer";
+  background-image: url(https://cdna.artstation.com/p/assets/images/images/028/891/638/smaller_square/myrthe-van-tol-grass-texture.jpg?1595845689);
+}
+
+.mainFlex {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+  margin-top: 20px;
+  padding: 20px 0;
+}
+
+.sectionFlex {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 80%;
+  justify-items: center;
+  margin-top: -50px;
+}
+
+.filters {
+  width: 50%;
+  height: 180px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.selects {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.select {
+  padding: 8px 12px;
+  color: #333333;
+  font-family: "Gamer";
+  background-color: #faf8f8;
+  border: 1px solid #dddddd;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.select:focus,
+.select:hover {
+  outline: none;
+  border: 1px solid #bbbbbb;
+}
+
+.select option {
+  background-color: #faf8f8;
+}
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.loader {
+  position: absolute;
+  left: 800px;
+  top: 400px;
+}
+
+.refreshButton {
+  background-color: transparent;
+  border: none;
+}
+
+.refreshButton img {
+  width: 60px;
+  height: 60px;
+  cursor: pointer;
+  transition: 0.4s all ease-in-out;
+}
+
+.refreshButton img:hover {
+  transform: scale(1.1);
+  transform: rotate(360deg);
+}
+
+.notFound {
+  position: absolute;
+  top: 320px;
+  left: 680px;
+}

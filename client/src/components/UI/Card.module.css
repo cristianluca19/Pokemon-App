@@ -1,0 +1,87 @@
+.container {
+  margin-top: 100px;
+  margin-left: 100px;
+  border-top-left-radius: 40px;
+  border-top-right-radius: 40px;
+  border-bottom-left-radius: 40px;
+  border-bottom-right-radius: 40px;
+  display: flex;
+  flex-direction: column;
+  height: 300px;
+  width: 300px;
+  background-color: #faf8f8;
+  box-shadow: 2px 5px 10px -1px rgba(0, 0, 0, 0.75);
+}
+
+.top {
+  border-top-left-radius: 40px;
+  border-top-right-radius: 40px;
+  font-size: 20px;
+  background-color: #db3d4b;
+  height: 20%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 8px solid rgb(56, 53, 53);
+}
+
+.rest {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+
+
+.img {
+  margin-top: 10px;
+  width: 100%;
+  height: 100%;
+  transition: 0.2s all ease-in-out;
+}
+
+.img:hover {
+  transform: scale(1.2);
+}
+
+.img img {
+  width: 120px;
+  height: 120px;
+
+}
+
+
+.type img {
+  width: 35px;
+  height: 35px;
+}
+
+.types {
+  align-self: flex-end;
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.type {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.type p {
+  font-size: 20px;
+}
+
+.type img {
+  position: relative;
+  top: 15px;
+}

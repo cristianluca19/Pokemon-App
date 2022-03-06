@@ -1,0 +1,49 @@
+.container {
+  border-radius: 30px;
+  border: 5px solid #ffd622;
+  width: 30%;
+  background-color: #faf8f8;
+  opacity: 0.8;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 22px;
+}
+
+.top {
+  width: 100%;
+}
+
+.organizer {
+  display: flex;
+}
+
+.stats {
+  width: 100%;
+}
+
+.stat {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2px;
+}
+
+.stat img {
+  height: 40px;
+  width: 40px;
+  margin-right: 2px;
+}
+
+.types {
+  display: flex;
+  width: 100%;
+  justify-content: space-evenly;
+  align-content: center;
+}
+
+.typeImg {
+  height: 70px;
+  width: 70px;
+}

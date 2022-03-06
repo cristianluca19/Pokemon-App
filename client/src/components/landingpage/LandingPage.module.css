@@ -1,0 +1,62 @@
+@font-face {
+  font-family: "Gamer";
+  src: url("../../fonts/Retro\ Gaming.ttf");
+}
+
+.main {
+  font-family: "Gamer", "Arial";
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  height: 100vh;
+  width: 100vw;
+}
+
+.left {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #db3d4b;
+  width: 40%;
+  z-index: 1;
+  box-shadow: 2px 0px 10px 0px rgba(0, 0, 0, 0.75);
+}
+
+.right {
+  background-color: #f5f1e6;
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.img {
+  margin-top: 30px;
+  height: 700px;
+  width: 700px;
+}
+
+.button {
+  margin-top: 200px;
+  color: black;
+  padding: 10px 30px;
+  font-size: 30px;
+  font-family: "Gamer"; 
+  border: 5px solid black;
+  background-color: #db3d4b;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  box-shadow: 3px 3px 10px 2px rgba(0, 0, 0, 0.75);
+}
+
+.button:hover{
+  transform: scale(1.1);
+  background-color: #FFD622;
+}
+
+.topdiv {
+  margin-top: 150px;
+}
