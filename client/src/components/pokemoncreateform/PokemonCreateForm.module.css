@@ -18,6 +18,7 @@ input[type="number"] {
   align-content: center;
   justify-content: center;
   height: 100vh;
+  overflow: scroll;
   /* modified for deployment */
 }
 
