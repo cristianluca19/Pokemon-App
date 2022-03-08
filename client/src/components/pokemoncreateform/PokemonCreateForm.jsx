@@ -127,10 +127,10 @@ const PokemonCreateForm = () => {
 
   return (
     <div className={Classes.container}>
+      <NavLink to="/home">
+        <button className={Classes.topButton}>BACK TO HOME</button>
+      </NavLink>
       <form onSubmit={handleSubmit} className={Classes.form}>
-        <NavLink to="/home">
-          <button className={Classes.topButton}>BACK TO HOME</button>
-        </NavLink>
         <label>
           Name
           <input
