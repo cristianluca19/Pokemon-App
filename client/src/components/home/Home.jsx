@@ -42,6 +42,7 @@ const Home = () => {
 
   const handleFilterByType = (e) => {
     dispatch(filterByTypes(e.target.value, origin));
+    setCurrentPage(1);
     setRefreshState((prevState) => !prevState);
   };
 
@@ -52,11 +53,13 @@ const Home = () => {
   const handleFilter = (e) => {
     setOrigin(e.target.value);
     dispatch(filterPokemon(e.target.value));
+    setCurrentPage(1);
     setRefreshState((prevState) => !prevState);
   };
 
   const handleSearch = (value) => {
     dispatch(searchPokemon(value));
+    setCurrentPage(1);
   };
 
   const handleReload = () => {
