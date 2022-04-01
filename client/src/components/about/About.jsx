@@ -6,6 +6,7 @@ import Github from "../../img/github.png";
 import { NavLink } from "react-router-dom";
 
 const About = () => {
+  
   return (
     <div className={Classes.container}>
       <main className={Classes.main}>
