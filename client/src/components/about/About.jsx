@@ -4,9 +4,10 @@ import HabboWaving from "../../img/habbo-wave.gif";
 import Linkedin from "../../img/linkedin.png";
 import Github from "../../img/github.png";
 import { NavLink } from "react-router-dom";
+ 
 
 const About = () => {
-  
+
   return (
     <div className={Classes.container}>
       <main className={Classes.main}>
